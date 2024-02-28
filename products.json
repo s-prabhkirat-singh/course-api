@@ -1,0 +1,73 @@
+[
+    {
+      "name": "iPhone 12",
+      "price": 999,
+      "featured": true,
+      "rating": 4.9,
+      "company": "apple"
+    },
+    {
+      "name": "Galaxy S21",
+      "price": 899,
+      "featured": false,
+      "rating": 4.8,
+      "company": "samsung"
+    },
+    {
+      "name": "Dell XPS 15",
+      "price": 1499,
+      "featured": true,
+      "rating": 4.9,
+      "company": "dell"
+    },
+    {
+      "name": "Redmi Note 10",
+      "price": 299,
+      "featured": false,
+      "rating": 4.7,
+      "company": "mi"
+    },
+    {
+      "name": "MacBook Pro",
+      "price": 1799,
+      "featured": true,
+      "rating": 4.9,
+      "company": "apple"
+    },
+    {
+      "name": "Samsung Galaxy Tab S7",
+      "price": 649,
+      "featured": true,
+      "rating": 4.8,
+      "company": "samsung"
+    },
+    {
+      "name": "Dell Inspiron 15",
+      "price": 799,
+      "featured": false,
+      "rating": 4.7,
+      "company": "dell"
+    },
+    {
+      "name": "Redmi Note 11 Pro",
+      "price": 399,
+      "featured": false,
+      "rating": 4.6,
+      "company": "mi"
+    },
+    {
+      "name": "iPhone 13",
+      "price": 1099,
+      "featured": true,
+      "rating": 4.9,
+      "company": "apple"
+    },
+    {
+      "name": "Samsung Galaxy Book Pro",
+      "price": 1299,
+      "featured": true,
+      "rating": 4.8,
+      "company": "samsung"
+    }
+  ]
+  
