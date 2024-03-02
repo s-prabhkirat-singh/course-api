@@ -6,7 +6,7 @@ const connectDB=require('./db/connect')
 //     res.send(`I am running`)
 // })
 const product_routes=require("./routes/products")
-app.use('/',()=>{
+app.use('/',(req,res)=>{
     res.send("Welcome to course api-- to render visit /api/products")
 })
 app.use("/api/products",product_routes)
