@@ -5,31 +5,54 @@ const productSchema= new mongoose.Schema({
         type:String,
         required:true
     },
+    duration:{
+        type:Number,
+        default:4.9
+    },
+    enrolled:{
+        type:Number,
+        default:4.9
+    },
     price:{
         type:Number,
         required:[true,'type must be provided']
     },
 
-    featured:{
-        type:Boolean,
-        default:false,
+    levels:{
+        type:String,
+        required:true
         
     },
-    rating:{
+    lessons:{
+        type:Number,
+        required:true
+        
+    },
+    category:{
+        type:String,
+        required:true
+        
+    },
+    instructor:{
+        type:String,
+        required:true
+        
+    },
+   
+    
+    review:{
         type:Number,
         default:4.9
     },
-    createdAt:{
-        type:Date,
-        default:Date.now()
-    },
-    company:{
-        type:String,
-        enum:{
-            values:['apple','samsung','dell','mi'],
-            message:`{VALUE} is not supported`
-        }
-    }
+   
+
+    // company:{
+    //     type:String,
+    //     enum:{
+    //         values:['apple','samsung','dell','mi'],
+    //         message:`{VALUE} is not supported`
+    //     }
+    // }
 
 })
 
