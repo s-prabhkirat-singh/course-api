@@ -6,7 +6,9 @@ const connectDB=require('./db/connect')
 //     res.send(`I am running`)
 // })
 const product_routes=require("./routes/products")
-
+app.use('/',()=>{
+    res.send("Welcome to course api-- to render visit /api/products")
+})
 app.use("/api/products",product_routes)
 const PORT=process.env.PORT || 5000;
 
